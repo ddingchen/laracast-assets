@@ -10,17 +10,17 @@
     </head>
     <body class="">
         <div id="app">
-            <div class="container mx-auto">
-                <header class="py-6 mb-8">
-                    <h1>
-                        <img src="/images/logo.svg" alt="Laracasts">
-                    </h1>
-                </header>
+            <header class="py-6 px-4 mb-8" style="background: url('/images/splash.svg') 0 10px no-repeat;">
+                <h1>
+                    <img src="/images/logo.svg" alt="Laracasts">
+                </h1>
+            </header>
 
+            <div class="container px-4">
                 <div class="main flex">
-                    <aside class="w-1/5">
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-4">The Brand</h5>
+                    <aside class="w-64 pt-10">
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">The Brand</h5>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/" exact>Logo</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/logo-symbol">Logo symbol</router-link></li>
@@ -29,8 +29,8 @@
                             </ul>
                         </section>
 
-                        <section class="mb-8">
-                            <h5 class="uppercase font-bold mb-4">Doodles</h5>
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
                             <ul class="list-reset">
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/mascot">Mascot</router-link></li>
                                 <li class="text-sm leading-loose"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
