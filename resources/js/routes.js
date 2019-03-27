@@ -1,3 +1,4 @@
+import NotFound from './components/NotFound'
 import Logo from './components/Logo'
 import LogoSymbol from './components/LogoSymbol'
 import Colors from './components/Colors'
@@ -13,6 +14,11 @@ export default {
     linkActiveClass: 'font-bold',
 
     routes: [
+        {
+            path: '*',
+            component: NotFound,
+        },
+
         {
             path: '/',
             component: Logo,
